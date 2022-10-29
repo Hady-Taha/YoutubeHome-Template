@@ -1,0 +1,61 @@
+.microphone {
+    background-color: #2b2a2a;
+
+}
+
+.searchBtn {
+    border-radius: 0px 50px 50px 0px;
+}
+
+.search {
+    background-color: #121212;
+    border: solid 2px #2b2a2a;
+    border-radius: 50px 0px 0px 50px;
+    color: #fff;
+}
+
+.search:focus {
+    outline: solid 1px var(--bs-primary);
+
+}
+
+.mypill {
+    color: rgb(224, 224, 224);
+    background-color: #272727;
+    text-align: center;
+    width: fit-content;
+    font-weight: 600;
+    margin-left: 10px;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.pills {
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    background-color: #0F0F0F;
+}
+
+.itme {
+    display: inline-block !important;
+}
+
+.mypill:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.myactive {
+    background-color: #fff;
+    color: black;
+}
+
+.glass {
+    /* From https://css.glass */
+    background: rgba(0, 0, 0, 0.0);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(8.4px) !important;
+    -webkit-backdrop-filter: blur(4.4px) !important;
+    /* border: 1px solid rgba(15, 15, 15, 0.2); */
+}

@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<!--bootstrap -V 5.2-->
+	<title>New Project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/lib/bootstrap.min.css">
+	<link rel="stylesheet" href="css/lib/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/lib/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body style="background-color: #0F0F0F;">
+	<div class="position-absolute"style="width: 220px; height: 220px; background-color:red; z-index: -1; filter: blur(150px);"></div>
+	<div class="position-absolute" style="width: 400px; height: 400px; background-color:blue; z-index: -2; filter: blur(200px); "></div>
+	
+	
+	
+	<div class="pt-2 fixed-top glass h-100 d-none d-sm-block" style="width: 5%!important;">
+		<div class="d-flex flex-column justify-content-center align-items-center">
+			<a href="#offcanvasExample" data-bs-toggle="offcanvas">
+				<i class="bi bi-list fs-4 me-1 text-light"></i>
+			</a>
+			<button
+				class="btn text-light  rounded-3 d-flex flex-column justify-content-center mt-5 mb-3 align-items-center">
+				<i class="fs-5 bi bi-house-fill "></i>
+				<small style="font-size:10px;">Home</small>
+			</button>
+			<button class="btn text-light rounded-3 d-flex flex-column justify-content-center mb-3 align-items-center">
+				<i class="fs-5 bi bi-lightning "></i>
+				<small style="font-size:10px;">Shorts</small>
+			</button>
+			<button
+				class="btn btn-sm text-light rounded-3 d-flex flex-column justify-content-center mb-3 align-items-center">
+				<i class="fs-5 bi bi-collection-play "></i>
+				<small style="font-size:10px;">Subscriptions</small>
+			</button>
+			<button class="btn text-light rounded-3 d-flex flex-column justify-content-center mb-3 align-items-center">
+				<i class="fs-5 bi bi-box "></i>
+				<small style="font-size:10px;">Library</small>
+			</button>
+		</div>
+	</div>
+
+
+	<div class="ms-sm-5 mb-5">
+		<nav class="navbar sticky-top  navbar-expand-lg d-none d-sm-block  navbar-dark glass" >
+			<div class="container">
+				<div class="d-flex justify-content-center align-items-center">
+					<a class="navbar-brand d-flex align-items-center" href="#">
+						<img class="me-1" src="img/logo.webp" height="25" alt="">
+						<strong>YOUTUBE</strong>
+					</a>
+				</div>
+				<div class="d-flex w-50 mx-5 d-flex justify-content-center">
+					<input type="search" class="search w-100 ps-4 " name="search" id="search">
+					<button class="btn text-light searchBtn" style="background-color: #313131;">
+						<i class="bi bi-search"></i>
+					</button>
+					<div class="d-flex justify-content-center align-items-center ms-3">
+						<button
+							class="btn btn-outline-light rounded-circle d-flex justify-content-center align-items-center"
+							style="height: 38px; width:38px ;">
+							<i class="bi bi-mic-fill"></i>
+						</button>
+					</div>
+				</div>
+				<div class="navbar-nav d-flex justify-content-center align-items-center">
+					<div class="dropdown  mx-2">
+						<a class="nav-link  dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+							<img src="img/avatrar.jpg" class="rounded-circle" height="28" alt="">
+						</a>
+						<div class="dropdown-menu   dropdown-menu-dark p-3 rounded-3"
+							style="background-color: #313131; top:112% ;">
+							<div class="headNave d-flex justify-content-between">
+								<div class="d-flex flex-column align-items-end ">
+									<small class="p-0 m-0">Hady Taha</small>
+									<a href="#" class="p-0 m-0 text-decoration-none"><small>mange account</small> </a>
+								</div>
+								<div class="d-flex flex-column align-items-center justify-content-center">
+									<img src="img/avatrar.jpg" class="rounded-circle" height="30" width="30" alt="">
+								</div>
+							</div>
+							<hr>
+							<div class="d-flex flex-column align-items-start">
+								<div class="d-flex mb-4 ">
+									<i class="bi bi-person-circle me-3"></i>
+									<small>Your channel</small>
+								</div>
+								<div class="d-flex mb-4 justify-content-evenly">
+									<i class="bi bi-play-btn me-3"></i>
+									<small>Youtube Studio</small>
+								</div>
+								<div class="d-flex mb-4 justify-content-evenly">
+									<i class="bi bi-nintendo-switch me-3"></i>
+									<small class="text-nowrap">Switch account <i
+											class="bi bi-arrow-right-short"></i></small>
+								</div>
+								<div class="d-flex  justify-content-evenly">
+									<i class="bi bi-door-open me-3"></i>
+									<small>Sign out</small>
+								</div>
+							</div>
+							<hr>
+							<div class="d-flex flex-column align-items-start">
+								<div class="d-flex mb-4 ">
+									<i class="bi bi-currency-dollar me-3"></i>
+									<small>Putchases </small>
+								</div>
+								<div class="d-flex  ">
+									<i class="bi bi-shield me-3"></i>
+									<small>Your Data </small>
+								</div>
+							</div>
+							<hr>
+							<div class="d-flex flex-column align-items-start">
+								<div class="d-flex mb ">
+									<i class="bi bi-gear me-3"></i>
+									<small>Settings</small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a class="nav-link active" aria-current="page" href="#">
+						<i class="bi bi-play-circle mx-2 fs-5"></i>
+					</a>
+					<a class="nav-link active" href="#">
+						<i class="bi bi-bell mx-2 fs-5"></i>
+					</a>
+				</div>
+			</div>
+		</nav>
+
+		<div class="py-3 text-light d-sm-none d-block">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+					<div class="d-flex">
+						<img src="img/logo.webp" height="25" alt="">
+						Youtube
+					</div>
+					<div class="d-flex justify-content-center align-items-center">
+						<i class="me-3 bi bi-arrows-fullscreen"></i>
+						<i class="me-3 bi bi-bell"></i>
+						<i class="me-3 bi bi-search"></i>
+						<img src="img/avatrar.jpg" height="20" class=" rounded-circle" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="fixed-bottom  text-light d-sm-none d-block p-2"  style="background-color: #0F0F0F;">
+			<div class="d-flex justify-content-around align-items-center">
+				<div class="d-flex flex-column align-items-center">
+					<i class="bi bi-house-fill fs-1"></i>
+					<small style="font-size: 10px;">Home</small>
+				</div>
+				<div class="d-flex flex-column align-items-center">
+					<i class="bi bi-lightning fs-1"></i>
+					<small style="font-size: 10px;">Shorts</small>
+				</div>
+				<div class="d-flex flex-column align-items-center">
+					<i class="bi bi-plus-circle" style="font-size: 40px;"></i>
+					<small style="font-size: 10px;">...</small>
+				</div>
+				<div class="d-flex flex-column align-items-center">
+					<i class="bi bi-collection-play fs-1"></i>
+					<small style="font-size: 10px;">Subscriptions</small>
+				</div>
+				<div class="d-flex flex-column align-items-center">
+					<i class="bi bi-box fs-1"></i>
+					<small style="font-size: 10px;">Library</small>
+				</div>
+			</div>
+		</div>
+
+		<div class="offcanvas glass offcanvas-start  w-25  text-light" tabindex="-1" id="offcanvasExample"
+			aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header d-flex justify-content-start align-items-center">
+				<button type="button" class="btn" data-bs-dismiss="offcanvas">
+					<i class="bi bi-list fs-4 me-1 text-light"></i>
+				</button>
+				<h5 class="offcanvas-title" id="offcanvasExampleLabel"><img class="me-1" src="img/logo.webp" height="25"
+						alt="">
+					Youtube</h5>
+
+			</div>
+			<div class="offcanvas-body ">
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-house-door-fill fs-5"></i>
+					<h6 class="my-0 ms-4 ">Home</h6>
+				</button>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-lightning fs-5"></i>
+					<h6 class="my-0 ms-4 ">Shorts</h6>
+				</button>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-collection-play fs-5"></i>
+					<h6 class="my-0 ms-4 ">Subscriptions</h6>
+
+				</button>
+				<hr>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-box fs-5"></i>
+					<h6 class="my-0 ms-4 ">Library</h6>
+				</button>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-clock-history fs-5"></i>
+					<h6 class="my-0 ms-4 ">History</h6>
+				</button>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-play-btn fs-5"></i>
+					<h6 class="my-0 ms-4 ">Your videos</h6>
+				</button>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-hand-thumbs-up fs-5"></i>
+					<h6 class="my-0 ms-4 ">Liked videos</h6>
+				</button>
+				<button class="btn w-100 mb-1 text-light d-flex  align-items-center justify-content-start">
+					<i class="bi bi-arrow-down-short fs-5"></i>
+					<h6 class="my-0 ms-4 ">Show more</h6>
+				</button>
+				<hr>
+
+			</div>
+		</div>
+
+		<div class="pills w-100  p-2" style="background: rgba(15, 15, 15, 0);">
+			<div class="container">
+				<div class="items">
+					<div class="itme">
+						<p class="mypill myactive rounded-pill  text-capitalize">All</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">New to you</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">Mixes</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">Gaming</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">Humans</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">React routers</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">Database</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize ">computer science</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">Hack5</p>
+					</div>
+					<div class="itme ">
+						<p class="mypill rounded-3  text-capitalize">real madrid</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="recommended">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">22:55</span>
+								<img src="img/hq1.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar1.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">هل منطقي تكون صانع محتوى في سنة ٢٠٢٢</h5>
+									<p class="text-muted mb-0">MahmoudIsmailTV <i class="bi bi-check-circle-fill"></i>
+									</p>
+									<p class="text-muted mt-0">56K views . 22 hours ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">3:49:04</span>
+								<img src="img/hq2.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar2.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column   ms-4">
+									<h5 class="fw-light">React Node.js Booking App Full Tutorial | MERN Stack..</h5>
+									<p class="fw-light text-muted mb-0">Lama Dev <i class="bi bi-check-circle-fill"></i>
+									</p>
+									<p class="fw-light text-muted mt-0">327K views . 5 mounths</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">28:58</span>
+								<img src="img/hq3.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar3.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">الدحيح | الأزمة العالمية 2008</h5>
+									<p class="text-muted mb-0">Museum of The Future المستقبل...<i
+											class="bi bi-check-circle-fill"></i></p>
+									<p class="text-muted mt-0">2.3M views . 1 mounth ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">11:3</span>
+								<img src="img/hq4.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar4.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">لو شغال عن بعد...الفيديو ده ليك</h5>
+									<p class="text-muted mb-0">Mohamed Abusrea - محمد أبوسريع
+									</p>
+									<p class="text-muted mt-0">34K views . 11 months ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">24:5</span>
+								<img src="img/hq5.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar5.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">Calculus (03) - properties of numbers 2 | التفاضل و التكامل...
+									</h5>
+									<p class="text-muted mb-0">anaHr
+									</p>
+									<p class="text-muted mt-0">104K views . 6 years ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">19:46</span>
+								<img src="img/hq6.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar6.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">أخطاء البيع الشخصي: 15 خطأ يقع فيه البائعون، تجنب هذه الأخطاء -
+										د. إيهاب مسلم</h5>
+									<p class="text-muted mb-0">Mohamed Abusrea - محمد أبوسريع
+									</p>
+									<p class="text-muted mt-0">555K views . 3 years ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section class="short ">
+			<div class="container">
+				<div class="d-flex justify-content-between">
+					<h3 class="mb-4 text-light">Shorts <i class="bi bi-lightning-fill text-danger"></i></h3>
+					<h3 class="bi bi-arrow-right-short text-light"></h3>
+				</div>
+				<div class="owl-carousel owl-theme">
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short1.webp" class="img-fluid rounded-3" alt="">
+							<h6>Cristiano Ronaldo évolution ❤👁</h6>
+							<p class="text-muted">7.3M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short2.jpg" class="img-fluid rounded-3" alt="">
+							<h6>لو خيروك بين الصناديق 🎁🎁🎁</h6>
+							<p class="text-muted">5.4M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short4.jpg" class="img-fluid rounded-3" alt="">
+							<h6>Use the precious wood to make a string...</h6>
+							<p class="text-muted">41M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short5.jpg" class="img-fluid rounded-3" alt="">
+							<h6>sets broken fairly pass child ready....</h6>
+							<p class="text-muted">30M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short6.jpg" class="img-fluid rounded-3" alt="">
+							<h6>steep chain husband known winter account...</h6>
+							<p class="text-muted">82M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short7.jpg" class="img-fluid rounded-3" alt="">
+							<h6>stopped organized alone bound outer load breathe</h6>
+							<p class="text-muted">66M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short8.jpg" class="img-fluid rounded-3" alt="">
+							<h6>noise captain activity period furniture...</h6>
+							<p class="text-muted">65M views</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="text-light">
+							<img src="img/short9.jpg" class="img-fluid rounded-3" alt="">
+							<h6>certainly art broken represent </h6>
+							<p class="text-muted">98M views</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+		<hr>
+		<section class="trend">
+			<div class="container">
+				<h3 class="text-light">Trending <i class="bi bi-fire text-danger"></i></h3>
+				<div class="row">
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">20:48</span>
+								<img src="img/hq7.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar3.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">الدحيح | المول</h5>
+									<p class="text-muted mb-0">Museum of The Future المستقبل... <i
+											class="bi bi-check-circle-fill"></i>
+									</p>
+									<p class="text-muted mt-0">1.4M views . 2 weeks ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">21:05</span>
+								<img src="img/hq8.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar7.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">Reacting to YOUR Crazy Setups! Instant Regret...</h5>
+									<p class="text-muted mb-0">JayzTwoCents <i class="bi bi-check-circle-fill"></i>
+									</p>
+									<p class="text-muted mt-0">1.8M views . 1 year ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mb-4">
+						<div class="my-3">
+							<div class="position-relative">
+								<span class="badge bg-black opacity-75 position-absolute"
+									style="bottom: 10px; right:10px">6:08</span>
+								<img src="img/hq9.webp" class="img-fluid rounded-4" alt="">
+							</div>
+							<div class="d-flex mt-3 text-light">
+								<div class="d-flex flex-column">
+									<img src="img/avatrar7.jpg" class="rounded-circle" height="40" alt="">
+								</div>
+								<div class="d-flex flex-column  fw-light ms-4">
+									<h5 class="fw-light">إزاي تبدأ تتعلم برمجة</h5>
+									<p class="text-muted mb-0">Elzero Web School <i class="bi bi-check-circle-fill"></i>
+									</p>
+									<p class="text-muted mt-0">283K views . 6 months ago</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="text-center" style="margin-bottom: 20%;">
+			<p class="text-white fw-bold">developed by <a class="text-decoration-none fw-bold"
+					href="https://twitter.com/HadyTaha77"> @hadytaha77 <i class="b bi-twitter"></i> </a></p>
+		</div>
+	</div>
+
+
+
+
+
+
+
+	<!--jquery -V 3.6.0-->
+	<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+	<script type="text/javascript" src="js/lib/bootstrap.bundle.min.js"></script>
+	<script src="js/lib/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
